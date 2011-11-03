@@ -1,3 +1,9 @@
+# revision 17337
+# category Package
+# catalog-ctan /macros/latex/contrib/dlfltxb
+# catalog-date 2010-03-04 23:40:34 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-dlfltxb
 Version:	20100304
 Release:	1
@@ -66,6 +72,7 @@ at the author's institution (it is written in Danish).
 %doc %{_texmfdistdir}/doc/latex/dlfltxb/dlfltxbtocconfig.pdf
 %doc %{_texmfdistdir}/doc/latex/dlfltxb/dlfltxbtocconfig.tex
 %doc %{_texmfdistdir}/doc/latex/dlfltxb/package_doc.bib
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -76,3 +83,5 @@ at the author's institution (it is written in Danish).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
