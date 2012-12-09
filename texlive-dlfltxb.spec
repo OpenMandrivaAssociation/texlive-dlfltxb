@@ -73,3 +73,17 @@ at the author's institution (it is written in Danish).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100304-2
++ Revision: 751003
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100304-1
++ Revision: 718240
+- texlive-dlfltxb
+- texlive-dlfltxb
+- texlive-dlfltxb
+- texlive-dlfltxb
+
