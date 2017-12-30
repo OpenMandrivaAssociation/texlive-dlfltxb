@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-dlfltxb
-Version:	20100304
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Macros related to "Introdktion til LaTeX"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dlfltxb
